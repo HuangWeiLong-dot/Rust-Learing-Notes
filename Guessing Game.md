@@ -3,6 +3,7 @@ tags:
   - project
   - rust
 Created: 2026-01-11
+categories: "[[Rust]]"
 ---
 # First Part
 

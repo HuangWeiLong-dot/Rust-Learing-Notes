@@ -3,6 +3,7 @@ tags:
   - rust
   - cargo
 Created: 2026-01-11
+categories: "[[Rust]]"
 ---
 
 Cargo is [[Rust]]’s build system and package manager

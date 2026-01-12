@@ -1,0 +1,6 @@
+filters:
+  and:
+    - file.tags.contains("day")
+views:
+  - type: table
+    name: Table
