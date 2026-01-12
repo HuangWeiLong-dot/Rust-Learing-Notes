@@ -1,0 +1,26 @@
+summaries:
+  Filled: values.filter(!value.isType("null")).length
+filters:
+  and:
+    - file.tags.contains("Rust")
+    - '!file.fullname.contains("2026")'
+formulas:
+  未命名: ""
+properties:
+  file.name:
+    displayName: Entry
+views:
+  - type: table
+    name: Project
+    order:
+      - file.name
+      - tags
+      - Created
+    sort:
+      - property: file.name
+        direction: DESC
+    columnSize:
+      file.name: 207
+      note.tags: 320
+  - type: table
+    name: Concept

@@ -1,0 +1,17 @@
+filters:
+  and:
+    - file.tags.contains("Project")
+views:
+  - type: table
+    name: 表格
+    order:
+      - file.name
+      - tags
+      - Created
+    sort:
+      - property: file.name
+        direction: DESC
+    columnSize:
+      file.name: 240
+      note.tags: 392
+      note.Created: 374
