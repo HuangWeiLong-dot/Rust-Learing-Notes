@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "48b56c904766bec6",
+        "id": "5f369ece4d00a8d5",
         "type": "tabs",
         "children": [
           {
-            "id": "9205d2808a95cf1d",
+            "id": "d41549fdd7d3c09b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cargo.md",
+                "file": "2026-01-11.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cargo"
+              "title": "2026-01-11"
             }
           },
           {
-            "id": "43c3fef153baa8e8",
+            "id": "c3ead4ce8ba112f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guessing Game.md",
+                "file": "Rust.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Guessing Game"
+              "title": "Rust"
             }
           },
           {
-            "id": "c6193bc099e2ad9c",
+            "id": "59902046fc62f4d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Very First Programme.md",
+                "file": "Categories/Project.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,31 +76,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The Very First Programme"
+              "title": "Project"
             }
           },
           {
-            "id": "8339355676be9d72",
+            "id": "1e9826fdfd2ec10e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Guessing Game.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Guessing Game"
+              "title": "New tab"
             }
           }
         ],
@@ -177,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Guessing Game.md",
+                "file": "Categories/Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +173,21 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Guessing Game"
+              "title": "Backlinks for Project"
+            }
+          },
+          {
+            "id": "8e107ecb0caea730",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           },
           {
@@ -196,12 +196,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The Rust Programming Language.md",
+                "file": "Categories/Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "The Rust Programming Language 的出链列表"
+              "title": "Outgoing links from Project"
             }
           },
           {
@@ -216,7 +216,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "标签"
+              "title": "Tags"
             }
           },
           {
@@ -230,25 +230,21 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "添加笔记属性"
+              "title": "All properties"
             }
           },
           {
-            "id": "8e107ecb0caea730",
+            "id": "d869ea70d24f939a",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "The Rust Programming Language.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "The Rust Programming Language 的大纲"
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -261,32 +257,49 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
+      "obsidian-git:Open Git source control": false,
       "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "bases:Create new base": false
     }
   },
-  "active": "8339355676be9d72",
+  "active": "6790ff27bd90e344",
   "lastOpenFiles": [
-    "The Very First Programme.md",
-    "Guessing Game.md",
-    "daily.md",
-    "Cargo.md",
-    "2026-01-11.md",
+    "Categories/Project.md",
     "Rust.md",
-    "Base/Daily.base",
-    "Base/Rust.base",
-    "Base/Projects.base",
+    "Daily.md",
+    "2026-01-11.md",
+    "2026-01-13.md",
+    "Projects/The Very First Programme.md",
+    "Projects/Guessing Game.md",
+    "Concepts/Variables and Mutability.md",
+    "Concepts/Fuctions.md",
+    "Concepts/Data Types.md",
+    "Concepts/Control Flow.md",
+    "Concepts/Comments.md",
+    "Concepts/Cargo.md",
+    "Concepts/Common Concepts.md",
+    "Categories/Concepts.md",
+    "Templates/Template-Concept.md",
+    "Templates/Template-Daily.md",
+    "Base/2026-01-13.base",
+    "Base/Common Concepts.base",
+    "Concepts",
+    "Rust macro.md",
+    "Base/2026-01-11.base",
+    "Projects",
     "Daily",
-    "Variables and Mutability.md",
-    "Categories",
+    "Base/Projects.base",
+    "Base/Daily.base",
+    "Base/Drawing 2026-01-13 17.50.01.excalidraw.md",
+    "Base/Drawing 2026-01-13 17.51.12.excalidraw.md",
+    "Untitled.canvas",
+    "Base/Rust.base",
+    "Daily",
     "Daily/2026-01-11 1.md",
     "未命名.md",
-    "Daily",
-    "Templates/Untitled.md",
     "Base/Rust.md",
-    "Base",
     "`Result`.md",
-    "Templates",
     "欢迎.md"
   ]
 }

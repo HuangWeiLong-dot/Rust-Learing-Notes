@@ -1,0 +1,6 @@
+filters:
+  and:
+    - file.tags.contains("common concept")
+views:
+  - type: table
+    name: Table

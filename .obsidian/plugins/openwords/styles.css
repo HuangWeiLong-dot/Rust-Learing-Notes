@@ -1,0 +1,181 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+
+/* 插件设置选项卡 */
+.openwords-toggle-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 每行 4 列 */
+    gap: 10px; /* 每个 toggle 之间的间距 */
+    /* margin-top: 10px; */
+}
+.openwords-toggle-grid .setting-item:first-child {
+    padding-top: 10px;
+    border-top: 1px solid var(--background-modifier-border)
+}
+
+/* 返回按钮 */
+.openwords-back-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 1.05em;
+}
+
+.openwords-view-statusbar {
+    display: block;
+    text-align: center;
+    margin: 32px auto 0 auto;
+    font-size: 1.1em;
+    color: var(--text-muted);
+    width: 100%;
+}
+
+/* 学习模式页面 */
+.openwords-type-container {
+    width: 70%; /* 设置模态框宽度 */
+    max-width: 700px; /* 设置模态框最大宽度 */
+    margin: 0 auto; /* 居中模态框 */
+}
+
+.openwords-type-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+/* 背单词页面 */
+.openwords-learning-container {
+    width: 70%; /* 设置模态框宽度 */
+    max-width: 700px; /* 设置模态框最大宽度 */
+    margin: 0 auto; /* 居中模态框 */
+}
+
+.openwords-learning-card { /* 卡片容器样式 */
+    height: 300px; /* 固定高度 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    margin: 20px auto;
+    background-color: var(--background-primary);
+    text-align: center;
+    cursor: pointer; /* 鼠标悬停时显示手型 */
+}
+
+.openwords-learning-card:hover {
+    background-color: var(--background-modifier-hover); /* 鼠标悬停时背景变浅 */
+}
+
+.openwords-card-content { /* 单词内容样式 */
+    font-size: 3em; /* 设置单词字体大小 */
+    font-weight: bold; /* 设置单词加粗 */
+    color: var(--text-normal); /* 设置单词颜色 */
+    margin-top: 24px;
+}
+
+.openwords-card-meta {
+    font-size: 0.85em;
+    line-height: 1.5;
+    margin-top: 24px;
+
+}
+
+.openwords-card-markdown { /* Markdown 内容样式 */
+    width: 100%;
+    height: 100%;
+    overflow-y: auto; /* 添加垂直滚动条 */
+    background-color: var(--background-secondary); /* 更柔和的背景颜色 */
+    color: var(--text-muted); /* 使用正常文本颜色 */
+    font-size: 1.1em; /* 稍微增大字体 */
+    line-height: 1.6; /* 增加行高，提升可读性 */
+    border-radius: 8px; /* 添加圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* 设置优雅的字体 */
+    user-select: text; /* 允许文本选择 */
+}
+
+.openwords-learning-settings {
+    margin-top: 20px; /* 设置容器样式 */
+    font-size: 1em; /* 减小字体大小 */
+}
+
+.openwords-learning-settings .setting-item {
+    padding: 5px 10px; /* 减小内边距 */
+}
+
+.openwords-learning-settings button.active {
+    background: var(--interactive-accent);
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 0 6px var(--interactive-accent);
+}
+
+/* 默写单词页面 */
+.openwords-spelling-container {
+    width: 70%; /* 设置模态框宽度 */
+    max-width: 700px; /* 设置模态框最大宽度 */
+    margin: 0 auto; /* 居中模态框 */
+}
+
+.openwords-spelling-title {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.openwords-spelling-meaning {
+    width: 100%;
+    height: 200px;
+    overflow-y: auto; /* 添加垂直滚动条 */
+    background-color: var(--background-secondary); /* 更柔和的背景颜色 */
+    color: var(--text-muted); /* 使用正常文本颜色 */
+    font-size: 1.1em; /* 稍微增大字体 */
+    line-height: 1.6; /* 增加行高，提升可读性 */
+    border-radius: 8px; /* 添加圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* 设置优雅的字体 */
+    user-select: text; /* 允许文本选择 */
+    margin: 20px auto;
+    text-align: center;
+}
+
+.openwords-spelling-input {
+    display: flex;
+    flex-wrap: wrap;        /* 支持自动换行 */
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.openwords-spelling-letter {
+    width: 50px !important;
+    height: 50px !important;
+    text-align: center;
+    font-size: 1.5em !important;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 5px;
+    outline: none;
+}
+
+.openwords-spelling-feedback {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1em;
+    color: var(--text-accent);
+}

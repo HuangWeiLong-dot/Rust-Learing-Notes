@@ -1,0 +1,14 @@
+{
+  "folderPath": "English/英语单词",
+  "indexPath": "English/英语单词/索引/GRE",
+  "enableWords1": false,
+  "enableWords2": false,
+  "enableWords3": false,
+  "enableWords4": true,
+  "enableWords5": true,
+  "enableWords6": true,
+  "enableWords7": true,
+  "enableWords8": true,
+  "randomRatio": 0.7,
+  "maxEfactorForLink": 2.6
+}

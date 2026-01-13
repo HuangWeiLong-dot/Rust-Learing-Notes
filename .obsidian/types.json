@@ -3,7 +3,10 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "date": "number",
-    "Created": "date"
+    "Amounts": "number",
+    "Pages Read": "number",
+    "Time Spent": "text",
+    "Date": "text",
+    "a": "text"
   }
 }

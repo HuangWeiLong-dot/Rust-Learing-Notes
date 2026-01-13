@@ -1,6 +1,7 @@
 filters:
   and:
     - file.tags.contains("Project")
+    - file.name != "Project"
 views:
   - type: table
     name: 表格

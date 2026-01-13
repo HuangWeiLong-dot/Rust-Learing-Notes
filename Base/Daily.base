@@ -1,6 +1,7 @@
 filters:
   and:
-    - file.tags.contains("day")
+    - file.tags.contains("daily")
+    - '!file.name.contains("template")'
 views:
   - type: table
     name: Table

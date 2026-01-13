@@ -2,8 +2,7 @@ summaries:
   Filled: values.filter(!value.isType("null")).length
 filters:
   and:
-    - file.tags.contains("Rust")
-    - '!file.fullname.contains("2026")'
+    - file.tags.contains("index")
 formulas:
   未命名: ""
 properties:
@@ -21,6 +20,6 @@ views:
         direction: DESC
     columnSize:
       file.name: 207
-      note.tags: 320
+      note.tags: 212
   - type: table
     name: Concept

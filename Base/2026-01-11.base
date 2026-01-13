@@ -1,0 +1,6 @@
+filters:
+  and:
+    - Created == "2026-01-11"
+views:
+  - type: table
+    name: Table

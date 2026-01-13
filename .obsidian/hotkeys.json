@@ -1,11 +1,18 @@
 {
-  "editor:insert-callout": [
+  "editor:insert-wikilink": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Mod"
       ],
-      "key": "C"
+      "key": "Q"
+    }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
     }
   ]
 }
