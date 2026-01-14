@@ -55,7 +55,7 @@ let mut bananas = 5; // mutable
 > In Rust, variables are immutable by default, meaning once we give the variable a value, the value won’t change
 > See [[Variables and Mutability]]
 
-`let mut guess` will introduce a [[mutable variable]] named `guess`.
+[[let]] `mut guess` will introduce a [[mutable variable]] named `guess`.
 
 On the right of the equal sign is the value that `guess` is bound to, which is the result of calling `String::new`, a function that returns a new instance of a [[String]].
 
@@ -104,7 +104,7 @@ references are [[immutable]] by default.
 
 ## Generating A Random Number
 
-## Implement With A [[Crate]]
+### Implement With A [[Crate]]
 
 a crate is a collection of Rust source code files
 
@@ -124,7 +124,7 @@ use rand::Rng;
 
 `rand::thread_rng` function that gives us the particular random number generator we’re going to use: one that is local to the current thread of execution and is seeded by the operating system.
 
-## Comparing
+### Comparing
 
 ```rust
 use std::cmp::Ordering;
@@ -158,7 +158,7 @@ We bind this new variable to the expression `guess.trim().parse()`.
 The `trim` method on a `String` instance will eliminate any whitespace at the beginning and end.
 The [`parse` method on strings](https://doc.rust-lang.org/std/primitive.str.html#method.parse) converts a string to another type.
 
-## Allowing Multiple Input
+### Allowing Multiple Input
 
 ```rust
     // --snip--
@@ -179,7 +179,7 @@ The [`parse` method on strings](https://doc.rust-lang.org/std/primitive.str.ht
 }
 ```
 
-## Quit After Win
+#### Quit After Win
 
 ```rust
         // --snip--
@@ -196,7 +196,7 @@ The [`parse` method on strings](https://doc.rust-lang.org/std/primitive.str.ht
 }
 ```
 
-## Handling Invalid Input
+#### Handling Invalid Input
 
 ```rust
         // --snip--

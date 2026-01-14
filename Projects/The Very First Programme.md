@@ -1,7 +1,5 @@
 ---
 tags:
-  - function
-  - first
   - rust
   - project
 Created: 2026-01-11

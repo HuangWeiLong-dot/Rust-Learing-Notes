@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5f369ece4d00a8d5",
+        "id": "9ecd5d4f439f93bb",
         "type": "tabs",
         "children": [
           {
-            "id": "d41549fdd7d3c09b",
+            "id": "f9f3cccb554ace8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-01-11.md",
+                "file": "Concepts/Integers.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-01-11"
+              "title": "Integers"
             }
           },
           {
-            "id": "c3ead4ce8ba112f7",
+            "id": "755d7411e7ef9489",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust.md",
+                "file": "2026-01-14.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,45 +52,21 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Rust"
+              "title": "2026-01-14"
             }
           },
           {
-            "id": "59902046fc62f4d4",
+            "id": "d06131fe68928e23",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Categories/Project.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Project"
-            }
-          },
-          {
-            "id": "1e9826fdfd2ec10e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +106,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "Search"
             }
           },
           {
@@ -158,12 +134,27 @@
         "type": "tabs",
         "children": [
           {
+            "id": "42adfbdbc99b61e1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
             "id": "e9312ad7c9762096",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Categories/Project.md",
+                "file": "Concepts/Cargo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,21 +164,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Project"
-            }
-          },
-          {
-            "id": "8e107ecb0caea730",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Backlinks for Cargo"
             }
           },
           {
@@ -205,21 +182,6 @@
             }
           },
           {
-            "id": "42adfbdbc99b61e1",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
             "id": "6790ff27bd90e344",
             "type": "leaf",
             "state": {
@@ -234,7 +196,22 @@
             }
           },
           {
-            "id": "d869ea70d24f939a",
+            "id": "8e107ecb0caea730",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Concepts/Cargo.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Cargo"
+            }
+          },
+          {
+            "id": "3f878da409eced0c",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -260,46 +237,48 @@
       "obsidian-git:Open Git source control": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "remotely-save:Remotely Save": false
     }
   },
-  "active": "6790ff27bd90e344",
+  "active": "d06131fe68928e23",
   "lastOpenFiles": [
-    "Categories/Project.md",
-    "Rust.md",
-    "Daily.md",
-    "2026-01-11.md",
-    "2026-01-13.md",
-    "Projects/The Very First Programme.md",
+    "2026-01-14.md",
+    "Concepts/Integers.md",
+    "Concepts/Integer Overflow.md",
+    "Concepts/Integer Literals.md",
+    "Concepts/Declaring Constants.md",
+    "Concepts/Scalar.md",
+    "Concepts/Shadowing.md",
+    "Concepts/Signed.md",
     "Projects/Guessing Game.md",
-    "Concepts/Variables and Mutability.md",
-    "Concepts/Fuctions.md",
-    "Concepts/Data Types.md",
     "Concepts/Control Flow.md",
+    "Concepts/Unsigned.md",
+    "Excalidraw/Drawing 2026-01-14 13.41.48.excalidraw.md",
+    "Excalidraw",
+    "Untitled.canvas",
+    "Concepts/Data Types.md",
+    "Concepts/Compound.md",
+    "Concepts/Variables and Mutability.md",
+    "Templates/Template-Concept.md",
+    "Projects/The Very First Programme.md",
+    "Concepts/Fuctions.md",
     "Concepts/Comments.md",
     "Concepts/Cargo.md",
-    "Concepts/Common Concepts.md",
+    "Categories/Project.md",
     "Categories/Concepts.md",
-    "Templates/Template-Concept.md",
-    "Templates/Template-Daily.md",
-    "Base/2026-01-13.base",
     "Base/Common Concepts.base",
-    "Concepts",
-    "Rust macro.md",
+    "Templates/Template-Reference.md",
+    "2026-01-13.md",
+    "Base/2026-01-14.base",
+    "Rust.md",
     "Base/2026-01-11.base",
+    "Base/2026-01-13.base",
+    "Daily.md",
+    "Base/Rust.base",
+    "Concepts",
     "Projects",
     "Daily",
-    "Base/Projects.base",
-    "Base/Daily.base",
-    "Base/Drawing 2026-01-13 17.50.01.excalidraw.md",
-    "Base/Drawing 2026-01-13 17.51.12.excalidraw.md",
-    "Untitled.canvas",
-    "Base/Rust.base",
-    "Daily",
-    "Daily/2026-01-11 1.md",
-    "未命名.md",
-    "Base/Rust.md",
-    "`Result`.md",
-    "欢迎.md"
+    "Base/Projects.base"
   ]
 }

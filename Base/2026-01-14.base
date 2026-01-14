@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.tags.contains("common concept")
+    - Created == "2026-01-14"
 views:
   - type: table
     name: Table
