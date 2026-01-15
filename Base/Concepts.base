@@ -1,0 +1,6 @@
+filters:
+  and:
+    - file.tags.contains("concept")
+views:
+  - type: table
+    name: Table

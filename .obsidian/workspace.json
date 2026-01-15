@@ -8,89 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f9f3cccb554ace8f",
+            "id": "6324a141f367097c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Concepts/Integers.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Integers"
-            }
-          },
-          {
-            "id": "755d7411e7ef9489",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-01-14.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-01-14"
-            }
-          },
-          {
-            "id": "d06131fe68928e23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Concepts/Unsigned.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Unsigned"
-            }
-          },
-          {
-            "id": "125526770d56e99c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -265,44 +192,45 @@
       "bases:Create new base": false
     }
   },
-  "active": "125526770d56e99c",
+  "active": "6324a141f367097c",
   "lastOpenFiles": [
+    "Concepts/Integers.md",
+    "Excalidraw/Drawing 2026-01-14 17.49.12.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-14 17.49.21.excalidraw.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Excalidraw/Drawing 2026-01-14 17.47.23.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-14 17.46.18.excalidraw.md",
+    "Excalidraw",
     "Concepts/Unsigned.md",
     "2026-01-14.md",
-    "Concepts/Integers.md",
-    "Concepts/Integer Overflow.md",
-    "Concepts/Integer Literals.md",
-    "Concepts/Declaring Constants.md",
-    "Concepts/Scalar.md",
     "Concepts/Shadowing.md",
     "Concepts/Signed.md",
+    "Concepts/Scalar.md",
+    "Concepts/Integer Literals.md",
+    "Concepts/Compound.md",
+    "Base/Daily.base",
+    "Base/Rust.base",
+    "Base/Projects.base",
+    "Base/Concepts.base",
+    "Base/2026-01-11.base",
+    "Base/2026-01-14.base",
+    "Categories/Concepts.md",
+    "Concepts/Integer Overflow.md",
+    "Concepts/Data Types.md",
+    "Rust.md",
+    "Concepts/Declaring Constants.md",
+    "Concepts/Fuctions.md",
+    "Concepts/Variables and Mutability.md",
     "Projects/Guessing Game.md",
+    "Categories/Project.md",
+    "Projects/The Very First Programme.md",
+    "Templates/Template-Daily.md",
+    "2026-01-11.md",
     "Concepts/Control Flow.md",
     "Excalidraw/Drawing 2026-01-14 13.41.48.excalidraw.md",
-    "Excalidraw",
-    "Untitled.canvas",
-    "Concepts/Data Types.md",
-    "Concepts/Compound.md",
-    "Concepts/Variables and Mutability.md",
-    "Templates/Template-Concept.md",
-    "Projects/The Very First Programme.md",
-    "Concepts/Fuctions.md",
-    "Concepts/Comments.md",
-    "Concepts/Cargo.md",
-    "Categories/Project.md",
-    "Categories/Concepts.md",
     "Base/Common Concepts.base",
-    "Templates/Template-Reference.md",
-    "2026-01-13.md",
-    "Base/2026-01-14.base",
-    "Rust.md",
-    "Base/2026-01-11.base",
     "Base/2026-01-13.base",
-    "Daily.md",
-    "Base/Rust.base",
-    "Concepts",
-    "Projects",
-    "Daily",
-    "Base/Projects.base"
+    "Concepts"
   ]
 }
